@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worqlay - Redefining Feedback and Engagement</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4em 1em;
+            background: linear-gradient(to right, #4CAF50, #81C784);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+        .cta-button {
+            background: white;
+            color: #4CAF50;
+            padding: 0.75em 2em;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .feature {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+
+        .feature div {
+            background: white;
+            padding: 1.5em;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .learn-more {
+            display: block;
+            margin-top: 1em;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .feature {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature div {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Worqlay</h1>
+        <p>Empowering Feedback, Engagement, and Insights</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>No, it’s not just CRM...</h1>
+        <p>Discover how Worqlay goes beyond. Feedback, insights, and engagement redefined for developers and testers alike.</p>
+        <a href="#" class="cta-button">Book a Demo</a>
+    </section>
+    <section id="features">
+        <h2>Our Features</h2>
+        <div class="feature">
+            <div>
+                <h3>AI & Predictive Analytics</h3>
+                <p>Use cutting-edge AI to gain insights into user behavior and predict future trends for better engagement.</p>
+                <a href="#" class="learn-more">Learn more</a>
+            </div>
+            <div>
+                <h3>Message Automation</h3>
+                <p>Create seamless multi-channel communication with no code required, tailored to each customer’s journey.</p>
+                <a href="#" class="learn-more">Learn more</a>
+            </div>
+            <div>
+                <h3>User Personalization</h3>
+                <p>Deliver ultra-personalized experiences that resonate deeply with each user’s unique preferences.</p>
+                <a href="#" class="learn-more">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section id="solutions">
+        <h2>Industry Solutions</h2>
+        <p>How will you use Worqlay?</p>
+        <div class="feature">
+            <div>
+                <h3>Gaming</h3>
+                <p>Boost user retention and satisfaction with tailored solutions for the gaming industry.</p>
+            </div>
+            <div>
+                <h3>Fintech</h3>
+                <p>Enhance customer journeys and data-driven strategies in the financial sector.</p>
+            </div>
+            <div>
+                <h3>Retail</h3>
+                <p>Drive conversions and build loyal customers with personalized marketing and testing tools.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="feature">
+            <div>
+                <p>"Worqlay’s automation tools transformed our workflow. The platform’s simplicity is unmatched."</p>
+                <p><strong>- Tech Startup</strong></p>
+            </div>
+            <div>
+                <p>"The AI analytics helped us pinpoint exactly where we could improve our campaigns."</p>
+                <p><strong>- E-commerce Platform</strong></p>
+            </div>
+            <div>
+                <p>"Personalization features allowed us to connect with users like never before."</p>
+                <p><strong>- Gaming Studio</strong></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Worqlay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
